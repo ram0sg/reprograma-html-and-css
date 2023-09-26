@@ -4,7 +4,7 @@
   "description": "Repositório para uso no codesandbox",
   "main": "index.js",
   "scripts": {
-    "start": "cd src && live-server",
+    "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,8 @@
     "url": "https://github.com/DianaMartine/reprograma-html-and-css/issues"
   },
   "homepage": "https://github.com/DianaMartine/reprograma-html-and-css#readme",
-  "dependencies": {
-    "live-server": "^1.2.2"
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
   }
 }
